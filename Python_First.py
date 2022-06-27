@@ -9,8 +9,8 @@ print('The sum of {0} and {1} is {2}'.format(x, y, sum) + '!')
 
 # option2:
 # Function to run addition of given numbers
-def add(x, y):
-    return x + y
+def add(a, b):
+    return a + b
 
 
 # Input given number to calculate

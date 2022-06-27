@@ -1,2 +1,4 @@
 import random
-print (random.IP())
+import ipaddress
+
+print(random.ipaddress())
