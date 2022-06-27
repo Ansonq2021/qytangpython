@@ -4,6 +4,7 @@ x = 1
 y = 2
 sum = x + y
 # Display result of addition
+print ('calculate sum of 1 and 2')
 print('The sum of {0} and {1} is {2}'.format(x, y, sum) + '!')
 
 
