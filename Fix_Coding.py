@@ -5,8 +5,8 @@ depart2_m = 'qinke'
 COURSE_FEES_SEC = 456789.12456
 COURSE_FEES_PYTHON = 1234.3456
 
-line1 = 'Department1 name:%-11s Manager:%-11s COURSE FEES:%-12.5f %11s' % ('Security', 'cq_bomb', 456789.12456, 'The END!')
-line2 = 'Department2 name:%-11s Manager:%-11s COURSE FEES:%-9.4f %14s' % ('Python', 'qinke', 1234.3456, 'The END!')
+line1 = 'Department1 name:%-16s Manager:%-16s COURSE FEES:%-12.5f %16s' % ('Security', 'cq_bomb', 456789.12456, 'The END!')
+line2 = 'Department2 name:%-16s Manager:%-16s COURSE FEES:%-9.4f %19s' % ('Python', 'qinke', 1234.3456, 'The END!')
 
 
 length = len(line1)
