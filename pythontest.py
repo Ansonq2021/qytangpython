@@ -1,5 +1,1 @@
-import json
-import math
-import pymongo
-print ("let's go DevOps adventure with qyt!")
-
+print ('i like %s %s' %('in', 'blue sky'))
