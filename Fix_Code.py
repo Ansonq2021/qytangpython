@@ -11,7 +11,6 @@ line2 = 'Department2 name:%-16s Manager:%-16s COURSE FEES:%-9.4f %19s' % ('Pytho
 line1 = f'Department1: {department1:<16} Manager: {depart1_m:<16} COURSE FEES: {COURSE_FEES_SEC:12.5f}' + '{:>16}'.format('The END!')
 line2 = f'Department2: {department2:<16} Manager: {depart2_m:<16} COURSE FEES: {COURSE_FEES_PYTHON:9.4f}' + '{:>19}'.format('The END!')
 
-
 length = len(line1)
 print ('='*length)
 print (line1)
