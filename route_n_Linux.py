@@ -18,6 +18,6 @@ for route in route_n_result.strip().split('\n')[2:]:
     
 
 # option B:
-#r = re.findall(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s', route_n_result)
-#
-#print(route_n_result.split()[5] + ' is: ' + r[1])
+r = re.findall(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s', route_n_result)
+
+print(route_n_result.split()[5] + ' is : ' + r[1])
