@@ -1,11 +1,11 @@
 # option1:
 # Adding two numbers
-x = 1
-y = 2
+x = a
+y = b
 sum = x + y
 # Display result of addition
-print ('calculate sum of 1 and 2')
-print('The sum of {0} and {1} is {2}'.format(x, y, sum) + '!')
+print ('calculate sum of a and b')
+print('The sum of {0} and {a} is {b}'.format(x, y, sum) + '!')
 
 
 # option2:
